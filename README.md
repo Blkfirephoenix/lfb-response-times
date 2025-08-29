@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/lfb_logo.png" alt="LFB logo" width="120"><br/>
+  <img src="lfb_logo.png" alt="LFB logo" width="120"><br/>
   <strong style="font-size:26px">London Fire Brigade — Response Times</strong><br/>
   Interactive Streamlit dashboard for incidents and response KPIs
 </p>

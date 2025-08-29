@@ -25,7 +25,7 @@ This dashboard explores **London Fire Brigade (LFB)** incident data and response
 ---
 
 ## Data requirements
-Your file (CSV or Parquet) should include:
+This file (CSV or Parquet) includes:
 
 - `IncidentNumber`
 - `DateTimeOfCall` (datetime)

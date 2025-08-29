@@ -53,8 +53,19 @@ def summarize(sel):
 
 # -------- Sidebar: brand, data source, filter BUTTONS --------
 with st.sidebar:
-    st.markdown("### 🔥 London Fire Brigade")
-    st.caption("Response Times Dashboard")
+    st.markdown(
+    """
+    <div style="display:flex; flex-direction:column; align-items:center; text-align:center;">
+        <div style="font-size:44px; line-height:1; margin-bottom:6px;">🔥</div>
+        <div style="font-size:28px; font-weight:800; margin:0 0 4px 0;">
+            London Fire Brigade
+        </div>
+        <div style="color:#94a3b8; margin:0;">
+            Response Times Dashboard
+        </div>
+    </div>
+    """,
+    unsafe_allow_html=True,)
     st.markdown('<div class="sidebar-card">', unsafe_allow_html=True)
     st.subheader("Data source", divider="red")
     candidates = sorted(glob("lfb_fact_incident_kpi*.parquet") + glob("lfb_fact_incident_kpi*.csv"))

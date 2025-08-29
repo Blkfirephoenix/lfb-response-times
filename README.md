@@ -54,7 +54,7 @@ This file (CSV or Parquet) includes:
 └─ assets/
    ├─ lfb_logo.png
    └─ fire_icon.png
-
+```
 
 ---
 

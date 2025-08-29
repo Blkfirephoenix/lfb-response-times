@@ -5,9 +5,9 @@
 </p>
 
 <p align="center">
-  <!-- Replace this after you deploy -->
-  <a href="[https://YOUR-STREAMLIT-URL.streamlit.app](https://lfb-response-times-data-scientest-project.streamlit.app/)" target="_blank"><b>▶ LIVE APP</b></a>
+  <a href="https://lfb-response-times-data-scientest-project.streamlit.app/" target="_blank"><b>▶ LIVE APP</b></a>
 </p>
+
 
 ---
 

@@ -46,12 +46,14 @@ This file (CSV or Parquet) includes:
 
 ## Repo structure
 
-├─ streamlit_app_v7.py # Main Streamlit app
-├─ requirements.txt # Dependencies (Streamlit, pandas, pyarrow)
-├─ lfb_fact_incident_kpi.parquet # Sample/primary dataset (optional)
+```text
+.
+├─ streamlit_app_v7.py
+├─ requirements.txt
+├─ lfb_fact_incident_kpi.parquet
 └─ assets/
-├─ lfb_logo.png
-└─ fire_icon.png
+   ├─ lfb_logo.png
+   └─ fire_icon.png
 
 
 ---
